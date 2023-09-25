@@ -33,7 +33,7 @@ const app = {
             singer: "Hieu Thu Hai",
             path: "./assets/music/song1.mp3",
             image: "https://o.vdoc.vn/data/image/2023/04/19/loi-bai-hat-khong-the-say-hieuthuhai-700.jpg"
-        
+
         },
         {
             name: "Có Em Là Đủ",
@@ -58,7 +58,7 @@ const app = {
             singer: "Hieu Thu Hai",
             path: "./assets/music/song3.mp3",
             image: "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/4/9/f/6/49f6f7ebf517b9a6b2bc47abd6abfa32.jpg"
-        
+
         },
         {
             name: "Một Ngàn Nôi Đau",
@@ -77,7 +77,7 @@ const app = {
             singer: "Hieu Thu Hai",
             path: "./assets/music/song2.mp3",
             image: "https://img.vietcetera.com/uploads/images/13-aug-2021/pic2.jpg"
-        
+
         },
         {
             name: "Giữa Đại Lộ Đông Tây",
@@ -108,31 +108,73 @@ const app = {
             singer: "Hà Nhi",
             path: "./assets/music/song12.mp3",
             image: "https://afamilycdn.com/150157425591193600/2022/8/10/photo-1-16591985705011984033168-1659198609063109936963-1660101598440-16601015985911001149773.jpg"
-         },
-         {
-             name: "Đoạn Kết Cuối",
-             singer: "Vũ Thịnh",
-             path: "./assets/music/song14.mp3",
-             image: "https://ss-images.saostar.vn/wpr700/pc/1676280130572/saostar-bbax95kppypkil7n.jpg"
-            },
-          {
-              name: "Trà Sữa",
-              singer: "Anh Tú & Lyly",
-              path: "./assets/music/song15.mp3",
-              image: "https://media.viez.vn/prod/2021/12/19/large_Anh_tu_lyly_2_a4d0d01f89.png"
-             },
-           {
-               name: "Xe Đạp",
-               singer: "Thùy Chi",
-               path: "./assets/music/song16.mp3",
-               image: "https://cdn-petrotimes.mastercms.vn/stores/news_dataimages/donghoa/012021/08/09/3652_TC.jpg?rt=20210108093653"
-            }
-        
+        },
+        {
+            name: "Đoạn Kết Cuối",
+            singer: "Vũ Thịnh",
+            path: "./assets/music/song14.mp3",
+            image: "https://ss-images.saostar.vn/wpr700/pc/1676280130572/saostar-bbax95kppypkil7n.jpg"
+        },
+        {
+            name: "Trà Sữa",
+            singer: "Anh Tú & Lyly",
+            path: "./assets/music/song15.mp3",
+            image: "https://media.viez.vn/prod/2021/12/19/large_Anh_tu_lyly_2_a4d0d01f89.png"
+        },
+        {
+            name: "Xe Đạp",
+            singer: "Thùy Chi",
+            path: "./assets/music/song16.mp3",
+            image: "https://cdn-petrotimes.mastercms.vn/stores/news_dataimages/donghoa/012021/08/09/3652_TC.jpg?rt=20210108093653"
+        },
+        {
+            name: "Cưới Thôi",
+            singer: "Masew & BRay",
+            path: "./assets/music/song17.mp3",
+            image:"https://nhachay.vn/wp-content/uploads/2021/08/28_maxresdefault.jpg"
+        },
+        {
+            name: "Đừng Quên Tên Anh",
+            singer: "Hoa Vinh",
+            path: "./assets/music/song18.mp3",
+            image:"https://static2.yan.vn/YanNews/2167221/201809/dung-quen-ten-anh-cua-tan-binh-vpop-chinh-thuc-dat-100-trieu-view-aa952abb.jpg"
+        },
+        {
+            name: "Ghé Qua",
+            singer: "Dic & PC & Tofu",
+            path: "./assets/music/song19.mp3",
+            image:"https://static.yeah1music.net/uploads/41/2018/12/5c0b95c7516b8."
+        },
+        {
+            name: "Giấc Mơ Của Em",
+            singer: "MYLINA",
+            path: "./assets/music/song20.mp3",
+            image:"https://tuiriviu.com/wp-content/uploads/2023/08/giac-mo-cua-em-mylani-tuiriviu-1.webp"
+        },
+        {
+            name: "Tâm Sự Tuổi 30",
+            singer: "Trịnh Thăng Bình",
+            path: "./assets/music/song21.mp3",
+            image:"https://cdn.tuoitre.vn/thumb_w/1060/2018/img7750-1517246285796.jpg"
+        },
+        {
+            name: "Tự Sự",
+            singer: "Orange",
+            path: "./assets/music/song22.mp3",
+            image:"https://lyricvn.com/wp-content/uploads/2022/04/4f3f75a2a24afa46061320e4933db442.jpg"
+        },
+        {
+            name: "Xứng Đôi Cưới Thôi",
+            singer: "Lê Thiện Hiếu",
+            path: "./assets/music/song23.mp3",
+            image:"https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+
     ],
     render: function () {
         const htmls = this.songs.map((song, index) => {
             return `
-            <div class="song ${index === this.currentIndex? "active": ""}" data-Index=${index}>
+            <div class="song ${index === this.currentIndex ? "active" : ""}" data-Index=${index}>
                     <div class="thumb"
                         style="background-image: url('${song.image}')">
                     </div>
@@ -259,10 +301,10 @@ const app = {
         }
 
         // Xử lý next song khi ended bài hát
-        audio.onended = function() {
-            if(_this.isRepeat){
+        audio.onended = function () {
+            if (_this.isRepeat) {
                 audio.play();
-            }else{
+            } else {
                 _this.nextSong();
                 _this.render();
                 audio.play();
@@ -271,17 +313,17 @@ const app = {
         }
 
         // Xử lý phats lại 1 bài hát
-        btnRepeat.onclick = function(){
+        btnRepeat.onclick = function () {
             _this.isRepeat = !_this.isRepeat;
             btnRepeat.classList.toggle('active', _this.isRepeat);
         }
 
         // lắng nghe sự kiện khi click vào bài hát
-        playlist.onclick = function(e){
+        playlist.onclick = function (e) {
             const songIndex = e.target.closest('.song:not(.active)');
-            if(songIndex || e.target.closest('.option')){
+            if (songIndex || e.target.closest('.option')) {
                 // xử lí khi click vào
-                if(songIndex) {
+                if (songIndex) {
                     _this.currentIndex = Number(songIndex.getAttribute('data-index'));
                     // hoặc thay songIndex.dataset.index
                     _this.loadCurrentSong();
@@ -291,8 +333,8 @@ const app = {
             }
         }
     },
-    scrollToActiveSong: function(){
-        setTimeout(()=> {
+    scrollToActiveSong: function () {
+        setTimeout(() => {
             $(".song.active").scrollIntoView({
                 behavior: "smooth",
                 block: "nearest",
