@@ -27,6 +27,7 @@ const app = {
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
+    // list playlist
     songs: [
         {
             name: "Không Thể Say",
@@ -131,43 +132,115 @@ const app = {
             name: "Cưới Thôi",
             singer: "Masew & BRay",
             path: "./assets/music/song17.mp3",
-            image:"https://nhachay.vn/wp-content/uploads/2021/08/28_maxresdefault.jpg"
+            image: "https://nhachay.vn/wp-content/uploads/2021/08/28_maxresdefault.jpg"
         },
         {
             name: "Đừng Quên Tên Anh",
             singer: "Hoa Vinh",
             path: "./assets/music/song18.mp3",
-            image:"https://static2.yan.vn/YanNews/2167221/201809/dung-quen-ten-anh-cua-tan-binh-vpop-chinh-thuc-dat-100-trieu-view-aa952abb.jpg"
+            image: "https://static2.yan.vn/YanNews/2167221/201809/dung-quen-ten-anh-cua-tan-binh-vpop-chinh-thuc-dat-100-trieu-view-aa952abb.jpg"
         },
         {
             name: "Ghé Qua",
             singer: "Dic & PC & Tofu",
             path: "./assets/music/song19.mp3",
-            image:"https://static.yeah1music.net/uploads/41/2018/12/5c0b95c7516b8."
+            image: "https://static.yeah1music.net/uploads/41/2018/12/5c0b95c7516b8."
         },
         {
             name: "Giấc Mơ Của Em",
             singer: "MYLINA",
             path: "./assets/music/song20.mp3",
-            image:"https://tuiriviu.com/wp-content/uploads/2023/08/giac-mo-cua-em-mylani-tuiriviu-1.webp"
+            image: "https://tuiriviu.com/wp-content/uploads/2023/08/giac-mo-cua-em-mylani-tuiriviu-1.webp"
         },
         {
             name: "Tâm Sự Tuổi 30",
             singer: "Trịnh Thăng Bình",
             path: "./assets/music/song21.mp3",
-            image:"https://cdn.tuoitre.vn/thumb_w/1060/2018/img7750-1517246285796.jpg"
+            image: "https://cdn.tuoitre.vn/thumb_w/1060/2018/img7750-1517246285796.jpg"
         },
         {
             name: "Tự Sự",
             singer: "Orange",
             path: "./assets/music/song22.mp3",
-            image:"https://lyricvn.com/wp-content/uploads/2022/04/4f3f75a2a24afa46061320e4933db442.jpg"
+            image: "https://lyricvn.com/wp-content/uploads/2022/04/4f3f75a2a24afa46061320e4933db442.jpg"
         },
         {
             name: "Xứng Đôi Cưới Thôi",
             singer: "Lê Thiện Hiếu",
             path: "./assets/music/song23.mp3",
-            image:"https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Chỉ Một Đêm Nữa Thôi",
+            singer: "MCK - TLinh",
+            path: "./assets/music/song24.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Có Hẹn Với Thanh Xuân",
+            singer: "Suni Hạ Linh",
+            path: "./assets/music/song25.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Don't Côi",
+            singer: "RPT",
+            path: "./assets/music/song26.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Dự Báo Thời Tiết Hôm Nay Mưa",
+            singer: "GRey",
+            path: "./assets/music/song27.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Đủ Trải Sẽ Thấm",
+            singer: "MIKE",
+            path: "./assets/music/song28.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Shhhhh",
+            singer: "WEAN - TLinh",
+            path: "./assets/music/song29.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Thích Em Hơi Nhiều",
+            singer: "WrenEvans",
+            path: "./assets/music/song30.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Từng Quen",
+            singer: "WrenEvans",
+            path: "./assets/music/song31.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Vài Câu Nói Có Khiến Người Thay Đổi",
+            singer: "Grey",
+            path: "./assets/music/song32.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Waiting For You",
+            singer: "MONO",
+            path: "./assets/music/song33.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Chưa Phải Là yêu",
+            singer: "HURRYKNG",
+            path: "./assets/music/song34.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+        },
+        {
+            name: "Mamma Mia",
+            singer: "HIEUTHU2 - REX",
+            path: "./assets/music/song35.mp3",
+            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
         },
 
     ],
@@ -204,6 +277,7 @@ const app = {
         const cdWidth = cd.offsetWidth;
 
         // xử lý quay/dừng
+        // use animate() for animation
         const cdThumbAnimate = cdThumb.animate([
             { transform: 'rotate(360deg)' }
         ],
@@ -386,8 +460,12 @@ const app = {
 
 // const handleGetData = async () => {
 //     try {
-//         const response = await fetch("http://localhost:3000/songs").then(res => res.json());
-//         app.songs = response;
+//         const response = await fetch("https://localhost:44343/api/ProductApi/ListProducts", {
+//             headers: {
+//                 'Access-Control-Allow-Origin': "*"
+//             }
+//         }).then(res => res.json());
+//         console.log(response)
 //     } catch (error) {
 //         console.log(error.message);
 //     }
