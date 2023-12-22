@@ -174,73 +174,73 @@ const app = {
             name: "Chỉ Một Đêm Nữa Thôi",
             singer: "MCK - TLinh",
             path: "./assets/music/song24.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://event.mediacdn.vn/thumb_w/400/257767050295742464/image/hot14/2021/3/28/mck-web-1616928768048229394190.jpg"
         },
         {
             name: "Có Hẹn Với Thanh Xuân",
             singer: "Suni Hạ Linh",
             path: "./assets/music/song25.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "http://tapchisaoviet.com/files/Contents/11/co_hen_voi_thanh_xuan_la_mv_cuoi_cung_cua_nhom_monstar_Tap-chi-sao-viet-20210720073244.jpg"
         },
         {
             name: "Don't Côi",
             singer: "RPT",
             path: "./assets/music/song26.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://avatar-ex-swe.nixcdn.com/song/2022/12/07/5/6/5/7/1670385361814_640.jpg"
         },
         {
             name: "Dự Báo Thời Tiết Hôm Nay Mưa",
             singer: "GRey",
             path: "./assets/music/song27.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://o.vdoc.vn/data/image/2022/11/20/loi-bai-hat-du-bao-thoi-tiet-hom-nay-mua-grey-d-200.jpg"
         },
         {
             name: "Đủ Trải Sẽ Thấm",
             singer: "MIKE",
             path: "./assets/music/song28.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://photo-resize-zmp3.zmdcdn.me/w600_r300x169_jpeg/cover/1/7/8/f/178ffcdcee43325b2bdff337b5fdfd83.jpg"
         },
         {
             name: "Shhhhh",
             singer: "WEAN - TLinh",
             path: "./assets/music/song29.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://avatar-ex-swe.nixcdn.com/song/2023/10/07/6/a/d/0/1696643028822_640.jpg"
         },
         {
             name: "Thích Em Hơi Nhiều",
             singer: "WrenEvans",
             path: "./assets/music/song30.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://i1.sndcdn.com/artworks-REYWn5crOcVCic81-at9zjg-t500x500.jpg"
         },
         {
             name: "Từng Quen",
             singer: "WrenEvans",
             path: "./assets/music/song31.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/9/7/4/c/974c4f42b6143c56af330323d86a0b7f.jpg"
         },
         {
             name: "Vài Câu Nói Có Khiến Người Thay Đổi",
             singer: "Grey",
             path: "./assets/music/song32.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://i.ytimg.com/vi/2iidlwQ-NfU/maxresdefault.jpg"
         },
         {
             name: "Waiting For You",
             singer: "MONO",
             path: "./assets/music/song33.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://i.ytimg.com/vi/CHw1b_1LVBA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gJygfMA8=&rs=AOn4CLBPXnyuXHaKf0SJ9Yd7qIdV9JiwwQ"
         },
         {
             name: "Chưa Phải Là yêu",
             singer: "HURRYKNG",
             path: "./assets/music/song34.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://i.ytimg.com/vi/A_FQkKp4k8E/maxresdefault.jpg"
         },
         {
             name: "Mamma Mia",
             singer: "HIEUTHU2 - REX",
             path: "./assets/music/song35.mp3",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/175/849/products/xung-doi-thi-cuoi-thoi.jpg?v=1623938668903"
+            image: "https://i.ytimg.com/vi/zGugxVmHln4/maxresdefault.jpg"
         },
 
     ],
