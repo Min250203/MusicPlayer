@@ -458,18 +458,6 @@ const app = {
     }
 };
 
-// const handleGetData = async () => {
-//     try {
-//         const response = await fetch("https://localhost:44343/api/ProductApi/ListProducts", {
-//             headers: {
-//                 'Access-Control-Allow-Origin': "*"
-//             }
-//         }).then(res => res.json());
-//         console.log(response)
-//     } catch (error) {
-//         console.log(error.message);
-//     }
-// }
-
-// handleGetData();
 app.start();
+
+
